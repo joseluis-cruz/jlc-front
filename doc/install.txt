@@ -1,3 +1,22 @@
-npm install gapi-script
+Instalar en sistema operativo --------------------------------------------------------------------
+
+Node.js   // https://nodejs.org/es/download/current/
+
+VSCode.extensiones -------------------------------------------------------------------------------
+
+ES7+ React/Redux/React-Native snippets
+
+PowerShell como administrador --------------------------------------------------------------------
+
+Set-ExecutionPolicy RemoteSigned
+
+Terminal -----------------------------------------------------------------------------------------
+
+npx install --global yarn
+npm install gapi-script --force
 npm install react-google-login --force
 npm install react-bootstrap bootstrap --force
+
+Misceláneo ---------------------------------------------------------------------------------------
+
+Arrancar: yarn start
