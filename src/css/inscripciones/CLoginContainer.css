@@ -1,0 +1,18 @@
+:root {
+    --login-container-background-picture: url("../../../media/img/inscripciones/bg-login-container-status-selecting-method.jpg")
+}
+
+.login-container-default
+{
+    background-image: var(--login-container-background-picture)
+}
+
+.login-container-status-selecting-method,
+.login-container-status-in-progress
+{
+    background-image: url("../../../media/img/inscripciones/bg-login-container-status-selecting-method.jpg")
+}
+
+.login-container-status-in-welcome {
+    background-image: url("../../../media/img/inscripciones/bg-login-container-status-selecting-method.jpg")
+} 

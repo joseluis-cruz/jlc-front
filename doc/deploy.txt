@@ -1,0 +1,8 @@
+editar ./package.json
+    revisar { homepage: ??? }
+editar ./src/Entorno.tsx
+    revisar GOOGLE_CLIENT_ID
+npn run build
+editar ./build/index.html
+    modificar <script>window.FRONT_BASE_URL="https://www.jlcruz.site/inscribete/",window.API_BASE_URL="https://www.jlcruz.site/inscripciones-back/api/"</script>
+comprimir ./build en zip y descomprimir en alojamiento

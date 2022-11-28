@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 10vh;
+}
+
+header, footer {
+  background-color: black;
+  z-index: 10;
+  color: white;
+}
+
+#root {
+  min-height:100vh;
+}
+
+.App {
+  text-align: center;
+  min-height: 100vh;
+}
+
+.flxcol {
+  display: flex;
+  flex-direction: column;
+}
+
+.flxalc {
+  align-items: center;
+}
+
+.flxrow {
+  display: flex;
+  flex-direction: row;
+}
+
+.flxgr1 {
+  flex-grow: 1;
+}
+
+.flxspa {
+  justify-content: space-around;
+}
+
+.bkgtrl {
+  background-color: #FFFFFFAA;
+}
+
+.pd1e {
+  padding: 1em;
+}
+
+.img10e {
+  width: 10em;
+  height: 10em;
+}
+
+.imgbtn {
+  width: 2em;
+  height: 2em;
+  margin-right: 0.5em;
+}
+
+.imgrnd {
+  border-radius: 50%;
+  box-shadow: 0px 0px 25px 0px #000A;
+}
+
+button {
+  padding: 1em;
+  border-radius: 1em;
+  font-size: medium;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.container-main {
+  background-size: cover;
+  background-position: center;    
+  min-height: 80vh;  
+}
+
+.container-right {
+  min-width: 400px;
+  box-shadow: -50px 0px 50px 0px #000A;
+}
+
+.container-left {
+  min-width: 400px;
+  box-shadow: 50px 0px 50px 0px #000A;
+}
+
+.msg {
+  padding: 0.25em 1em 0.25em 1em;
+  margin: 0.5em;
+  background-color: #FFFB;
+  border-radius: 0.5em;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
